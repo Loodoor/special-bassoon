@@ -9,6 +9,7 @@
     </head>
     <body>
         <?php include('header.php'); ?>
+        <?php include('modals.php'); ?>
         
         <canvas class="box"></canvas>
         
@@ -33,8 +34,23 @@ In fermentum sed nibh quis ullamcorper. Mauris eget enim condimentum, maximus er
         <script type="text/javascript" src="js/typed.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
-            create_modal("about", "about text !");
-            create_modal("contact", "contact us here :D");
+            mod1 = document.getElementById("contactMod");
+            span1 = document.getElementById("closeContactMod");
+            on(span1, "click", function () {
+                mod1.style.display = "none";
+            });
+            on(window, "click", function() {
+                mod1.style.display = "none";
+            });
+            
+            mod2 = document.getElementById("aboutMod");
+            span2 = document.getElementById("closeAboutMod");
+            on(span2, "click", function () {
+                mod2.style.display = "none";
+            });
+            on(window, "click", function() {
+                mod2.style.display = "none";
+            });
         </script>
     </body>
 </html>

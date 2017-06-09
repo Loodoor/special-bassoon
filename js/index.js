@@ -39,7 +39,7 @@ function extractUrlParams() {
     return f;
 }
 
-function load_script(script_name, onload)  {
+function load_script(script_name, onload) {
     var script = qsd("script");
     script.src = script_name+".js"
     script.type = "text/javascript";

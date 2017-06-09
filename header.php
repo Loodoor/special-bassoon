@@ -16,7 +16,7 @@
                         <a href="https://github.com/Loodoor/template_blog">template_blog</a>
                     </div>
                 </li>
-                <li><a href="#contact" onclick="show_modal('contact');">Contact</a></li>
-                <li><a href="#about" onclick="show_modal('about');">A propos</a></li>
+                <li><a href="#contact" onclick="show_modal('contactMod');">Contact</a></li>
+                <li><a href="#about" onclick="show_modal('aboutMod');">A propos</a></li>
             </ul>
         </div>
