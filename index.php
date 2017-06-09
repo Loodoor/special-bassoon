@@ -13,6 +13,7 @@
         
         <div class="container">
             <canvas class="box"></canvas>
+            <div class="links"></div>
             
             <h2 id="tete">Pokémon Association</h2>
             <div id="corps">
@@ -27,6 +28,13 @@
 
     In fermentum sed nibh quis ullamcorper. Mauris eget enim condimentum, maximus erat et, rhoncus risus. Praesent et bibendum lectus, vehicula malesuada lorem. Proin rutrum pretium erat sit amet mollis. Vestibulum sed tincidunt justo. In dui mi, venenatis eget pellentesque nec, facilisis et mi. Quisque ut nunc dictum, tristique justo non, facilisis arcu. Donec sodales sapien odio, sed tincidunt quam venenatis sit amet. Sed non tristique mauris. Nulla placerat, risus id euismod fringilla, urna purus vestibulum lectus, a convallis orci lorem in ex. Donec sodales urna sed dignissim ornare. 
                 </p>
+            </div>
+            
+            <div class="boxtier">
+            </div>
+            <div class="boxtier">
+            </div>
+            <div class="boxtier">
             </div>
             
             <?php include('footer.php'); ?>
