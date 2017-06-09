@@ -5,11 +5,12 @@
         <meta name="author" content="Slazox, Folaefolc" />
         <meta name="viewport" content="user-scalable=0, initial-scale=1.0" />
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="https://cdn.rawgit.com/Loodoor/folaelib/master/folaelib.css" />
         <title>Pokémon Association</title>
     </head>
     <body>
         <?php include('header.php'); ?>
+        
+        <canvas class="box"></canvas>
         
         <h2 id="tete">Pokémon Association</h2>
         <div id="corps">
@@ -30,7 +31,6 @@ In fermentum sed nibh quis ullamcorper. Mauris eget enim condimentum, maximus er
         
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/typed.min.js"></script>
-        <script type="text/javascript" src="https://cdn.rawgit.com/Loodoor/folaelib/master/folaelib.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
             create_modal("about", "about text !");
