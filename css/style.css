@@ -16,13 +16,24 @@ body {
     padding: 0px;
 }
 
+.container {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
 #tete {
-    margin-top: 14%;
-    margin-left: 8%;
+    color: white;
+    position: absolute;
+    top: 0px;
+    text-align: center;
 }
 
 #corps {
-    
+    color: white;
+    position: absolute;
+    top: 50px;
+    text-align: center;
 }
 
 .box {
