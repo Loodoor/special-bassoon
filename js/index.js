@@ -122,8 +122,6 @@ if (!window.requestAnimationFrame) {
                     x: 0, // This value will be overwritten at startup
                     y: 0 // This value will be overwritten at startup
                 },
-                width: window.innerWidth,
-                height: window.innerHeight,
                 velocity: 0.1,
                 length: 100,
                 distance: 120,
@@ -223,8 +221,8 @@ if (!window.requestAnimationFrame) {
         };
 
         this.setCanvas = function () {
-            canvas.width = config.width;
-            canvas.height = config.height;
+            canvas.width = $(window).width();
+            canvas.height = $(window).height();
         };
 
         this.setContext = function () {

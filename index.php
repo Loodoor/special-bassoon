@@ -13,7 +13,7 @@
         
         <canvas class="box"></canvas>
         
-        <h2 id="tete">Pokémon Association</h2>
+        <!--<h2 id="tete">Pokémon Association</h2>
         <div id="corps">
             <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique, tortor nec rhoncus lobortis, velit velit eleifend turpis, non laoreet augue urna sit amet diam. Etiam nec mauris nec risus dictum mollis non sit amet sapien. Pellentesque risus risus, porttitor rutrum sem eget, finibus tristique tellus. Vestibulum sapien nibh, sodales quis egestas et, mollis vitae mauris. Sed ut feugiat nisi. Fusce accumsan orci in pellentesque consequat. Fusce augue sapien, euismod sit amet iaculis et, commodo at nibh. Nam in libero accumsan, venenatis ex ut, dictum mi. Nam tellus odio, porttitor nec elementum nec, facilisis sit amet mauris.
@@ -26,32 +26,13 @@ Vestibulum non nunc quis risus ultricies efficitur nec et nisi. Sed mi augue, cu
 
 In fermentum sed nibh quis ullamcorper. Mauris eget enim condimentum, maximus erat et, rhoncus risus. Praesent et bibendum lectus, vehicula malesuada lorem. Proin rutrum pretium erat sit amet mollis. Vestibulum sed tincidunt justo. In dui mi, venenatis eget pellentesque nec, facilisis et mi. Quisque ut nunc dictum, tristique justo non, facilisis arcu. Donec sodales sapien odio, sed tincidunt quam venenatis sit amet. Sed non tristique mauris. Nulla placerat, risus id euismod fringilla, urna purus vestibulum lectus, a convallis orci lorem in ex. Donec sodales urna sed dignissim ornare. 
             </p>
-        </div>
+        </div>-->
         
         <?php include('footer.php'); ?>
         
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/typed.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            mod1 = document.getElementById("contactMod");
-            span1 = document.getElementById("closeContactMod");
-            on(span1, "click", function () {
-                mod1.style.display = "none";
-            });
-            on(window, "click", function() {
-                mod1.style.display = "none";
-            });
-            
-            mod2 = document.getElementById("aboutMod");
-            span2 = document.getElementById("closeAboutMod");
-            on(span2, "click", function () {
-                mod2.style.display = "none";
-            });
-            on(window, "click", function() {
-                mod2.style.display = "none";
-            });
-        </script>
     </body>
 </html>
 
