@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Instruction';
+    src: url("../fonts/Instruction.otf") format('opentype');
+    
+}
+
+body {
+    background-image: url("../images/fond1.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Instruction';
+    margin: 0px;
+    padding: 0px;
+}
+
+#tête {
+    margin-top: 14%;
+    margin-left: 8%;
+}
