@@ -13,13 +13,15 @@
         
         <div class="container">
             <canvas class="box"></canvas>
-            <div class="links">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique, tortor nec rhoncus lobortis, velit velit eleifend turpis, non laoreet augue urna sit amet diam. Etiam nec mauris nec risus dictum mollis non sit amet sapien. Pellentesque risus risus, porttitor rutrum sem eget, finibus tristique tellus. Vestibulum sapien nibh, sodales quis egestas et, mollis vitae mauris. Sed ut feugiat nisi. Fusce accumsan orci in pellentesque consequat. Fusce augue sapien, euismod sit amet iaculis et, commodo at nibh. Nam in libero accumsan, venenatis ex ut, dictum mi. Nam tellus odio, porttitor nec elementum nec, facilisis sit amet mauris.
-            </div>
-            
             <h2 id="tete">Pokémon Association</h2>
             <div id="corps">
                 <image src="images/logo.png" class="logo" />
+                <div id="links">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique, tortor nec rhoncus lobortis, velit velit eleifend turpis, non laoreet augue urna sit amet diam. Etiam nec mauris nec risus dictum mollis non sit amet sapien. Pellentesque risus risus, porttitor rutrum sem eget, finibus tristique tellus. Vestibulum sapien nibh, sodales quis egestas et, mollis vitae mauris. Sed ut feugiat nisi. Fusce accumsan orci in pellentesque consequat. Fusce augue sapien, euismod sit amet iaculis et, commodo at nibh. Nam in libero accumsan, venenatis ex ut, dictum mi. Nam tellus odio, porttitor nec elementum nec, facilisis sit amet mauris.
+                </div>
+                
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                
                 <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique, tortor nec rhoncus lobortis, velit velit eleifend turpis, non laoreet augue urna sit amet diam. Etiam nec mauris nec risus dictum mollis non sit amet sapien. Pellentesque risus risus, porttitor rutrum sem eget, finibus tristique tellus. Vestibulum sapien nibh, sodales quis egestas et, mollis vitae mauris. Sed ut feugiat nisi. Fusce accumsan orci in pellentesque consequat. Fusce augue sapien, euismod sit amet iaculis et, commodo at nibh. Nam in libero accumsan, venenatis ex ut, dictum mi. Nam tellus odio, porttitor nec elementum nec, facilisis sit amet mauris.
 
@@ -32,6 +34,8 @@
     In fermentum sed nibh quis ullamcorper. Mauris eget enim condimentum, maximus erat et, rhoncus risus. Praesent et bibendum lectus, vehicula malesuada lorem. Proin rutrum pretium erat sit amet mollis. Vestibulum sed tincidunt justo. In dui mi, venenatis eget pellentesque nec, facilisis et mi. Quisque ut nunc dictum, tristique justo non, facilisis arcu. Donec sodales sapien odio, sed tincidunt quam venenatis sit amet. Sed non tristique mauris. Nulla placerat, risus id euismod fringilla, urna purus vestibulum lectus, a convallis orci lorem in ex. Donec sodales urna sed dignissim ornare. 
                 </p>
                 
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                
                 <div class="boxtier">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique, tortor nec rhoncus lobortis, velit velit eleifend turpis, non laoreet augue urna sit amet diam. Etiam nec mauris nec risus dictum mollis non sit amet sapien. Pellentesque risus risus, porttitor rutrum sem eget, finibus tristique tellus. Vestibulum sapien nibh, sodales quis egestas et, mollis vitae mauris. Sed ut feugiat nisi. Fusce accumsan orci in pellentesque consequat. Fusce augue sapien, euismod sit amet iaculis et, commodo at nibh. Nam in libero accumsan, venenatis ex ut, dictum mi. Nam tellus odio, porttitor nec elementum nec, facilisis sit amet mauris.
                 </div>
@@ -42,7 +46,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tristique, tortor nec rhoncus lobortis, velit velit eleifend turpis, non laoreet augue urna sit amet diam. Etiam nec mauris nec risus dictum mollis non sit amet sapien. Pellentesque risus risus, porttitor rutrum sem eget, finibus tristique tellus. Vestibulum sapien nibh, sodales quis egestas et, mollis vitae mauris. Sed ut feugiat nisi. Fusce accumsan orci in pellentesque consequat. Fusce augue sapien, euismod sit amet iaculis et, commodo at nibh. Nam in libero accumsan, venenatis ex ut, dictum mi. Nam tellus odio, porttitor nec elementum nec, facilisis sit amet mauris.
                 </div>
                 
-                <br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             </div>
             
             <?php include('footer.php'); ?>

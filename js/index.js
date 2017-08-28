@@ -10,6 +10,23 @@ $(function() {
     });
 });
 
+// onclick scroll to
+$("#header_main").click(function() {
+    $('html, body').animate({
+        scrollTop: $("body").offset().top
+    }, 2000);
+});
+$("#header_links").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#links").offset().top
+    }, 2000);
+});
+$("#header_news").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#news").offset().top
+    }, 2000);
+});
+
 // utils
 var getCookies = function() {
     var pairs = document.cookie.split(";");

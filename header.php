@@ -1,7 +1,8 @@
         <div class="header">
             <ul>
-                <li><a id="header_main" href="index.php">Accueil</a></li>
-                <li><a id="header_news" href="news.php">Nouveautés</a></li>
+                <li><a id="header_main">Accueil</a></li>
+                <li><a id="header_links">Liens</a></li>
+                <li><a id="header_news">Nouveautés</a></li>
                 <li class="dropdown">
                     <a class="dropbtn" href="#projects">Nos projets</a>
                     <div class="dropdown-content">
