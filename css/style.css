@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("../images/fond1.png");
+    /* background-image: url("../images/fond1.png"); */
     background-position: center;
     background-size: cover;
     object-fit: contain;
@@ -15,6 +15,10 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #111;
+}
+
+.logo {
+    text-align: center;
 }
 
 .container {
@@ -45,7 +49,15 @@ body {
     width: 100%;
     height: 100%;
     z-index: 0;
-    position: absolu;
+    position: fixed;
+}
+
+.boxtier {
+    color: white;
+    width: 28%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: inline-block;
 }
 
 .modal {
@@ -150,6 +162,9 @@ body {
     font-size: 80%;
     padding: 0px;
     margin: 0px;
+    top: 0;
+    left: 0;
+    position: absolu;
 }
 
 .typed-cursor {
